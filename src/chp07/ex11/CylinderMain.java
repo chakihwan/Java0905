@@ -1,4 +1,4 @@
-package ex11;
+package chp07.ex11;
 
 public class CylinderMain {
     public static void main(String[] args) {

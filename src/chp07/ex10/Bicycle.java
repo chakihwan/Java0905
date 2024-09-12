@@ -1,4 +1,4 @@
-package ex10;
+package chp07.ex10;
 
 public class Bicycle {
     private String name;
