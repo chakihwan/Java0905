@@ -28,7 +28,7 @@ public class Monster {
 
     public void attack(Monster enemy){
         enemy.hp -= 10;
-        System.out.printf("[%s]의 공격 -> %s의 체력: %d/%d\n",getName(),getName(),getHp(),maxHP);
+        System.out.printf("[%s]의 공격 -> %s의 체력: %d/%d\n",getName(),enemy.getName(),enemy.getHp(),maxHP);
 
     }
     public static void battle(Monster a, Monster b){
