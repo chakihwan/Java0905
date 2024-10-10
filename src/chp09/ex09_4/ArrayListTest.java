@@ -1,0 +1,31 @@
+package chp09.ex09_4;
+
+import java.util.ArrayList;
+
+public class ArrayListTest {
+    public static void main(String[] args) {
+        ArrayList<String> names = new ArrayList<String>();
+
+//        Element 추가
+        names.add("Kim");
+        names.add("Park");
+        names.add("Lee");
+        names.add("Jung");
+
+//        Element 변경(설정)
+        names.set(1, "Cha");
+
+//        Element 삭제
+        String removedName = names.remove(2);
+
+        System.out.println("삭제된 요소 : " + removedName);
+
+//        Element 요소 반환 size 메소드 (반복문)
+        for (int i =0; i < names.size(); i++){
+            System.out.printf("%s | ",names.get(i));
+        }
+
+//        Item 객체를 담기 위한 ArrayList 객체 생성 코드를 작성하시오.
+//        ArrayList<Item> items = new ArrayList<Item>();
+    }
+}
